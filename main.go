@@ -60,7 +60,7 @@ func main() {
 func initZapLogger() {
 
 	hook := lumberjack.Logger{
-		Filename:   "/Users/leo/Downloads/logs/godemo/mygomodtest-1.log", // 日志文件路径
+		Filename:   "/Users/bitz/Downloads/logs/godemo/mygomodtest-1.log", // 日志文件路径
 		MaxSize:    128,                      // 每个日志文件保存的最大尺寸 单位：M
 		MaxBackups: 30,                       // 日志文件最多保存多少个备份
 		MaxAge:     7,                        // 文件最多保存多少天
